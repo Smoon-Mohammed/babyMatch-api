@@ -28,4 +28,23 @@ public class UserEntity {
 
     @Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime create_at;
+
+    @Column(nullable = false, length = 100)
+    private String password;
+
+    @Column(name = "first_name", nullable = false, length = 100)
+    private String Firstname;
+
+    @Column(name = "last_name", nullable = false, length = 100)
+    private String Lastname;
+
+    @Column(nullable = false)
+    private Integer age;
+
+    @Column(nullable = false,  length = 100)
+    private String address;
+
+    @Column(nullable = false)
+    private String city;
+
 }
