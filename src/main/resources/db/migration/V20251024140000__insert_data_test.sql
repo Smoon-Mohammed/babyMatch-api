@@ -14,7 +14,7 @@ VALUES
 SELECT setval(pg_get_serial_sequence('users', 'id'), 10, true);
 
 -- 2️⃣ NURSERY
-INSERT INTO nursery (name, adress, city, post_code, nb_children_max, hourly, user_id)
+INSERT INTO nursery (name, address, city, post_code, nb_children_max, hourly, user_id)
 VALUES
     ('Les Petits Loups', '12 rue des Lilas', 'Paris', 75012, 25, '8h - 18h', 2),
     ('Jardin d’Enfants Arc-en-Ciel', '45 avenue Victor Hugo', 'Lyon', 69003, 30, '7h30 - 18h30', 3),

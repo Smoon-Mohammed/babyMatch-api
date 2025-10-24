@@ -1,7 +1,7 @@
 CREATE TABLE nursery (
                          id BIGSERIAL PRIMARY KEY,
                          name VARCHAR(50) NOT NULL UNIQUE,
-                         adress VARCHAR(100) NOT NULL UNIQUE,
+                         address VARCHAR(100) NOT NULL UNIQUE,
                          city VARCHAR(50) NOT NULL,
                          post_code INT,
                          nb_children_max INT,
