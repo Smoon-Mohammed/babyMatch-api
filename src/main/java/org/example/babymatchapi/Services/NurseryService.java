@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface NurseryService {
     List<NurseryDTO> getAllNurseries();
-
     NurseryDTO getNurseryById(Long id);
+
 }

@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.persistence.Id;
 import lombok.*;
 
+import java.sql.Array;
 import java.time.LocalDateTime;
 
 
@@ -46,5 +47,7 @@ public class UserEntity {
 
     @Column(nullable = false)
     private String city;
+
+
 
 }

@@ -2,6 +2,7 @@ package org.example.babymatchapi.DTO;
 
 import lombok.*;
 
+import java.sql.Array;
 import java.time.LocalDateTime;
 
 
@@ -20,4 +21,5 @@ public class UserDTO {
   private Integer age;
   private String address;
   private String city;
+  private Array roles;
 }

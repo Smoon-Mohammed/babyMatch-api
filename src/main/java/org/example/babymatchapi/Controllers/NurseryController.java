@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/nurseries")
+@RequestMapping("/api/nurseries")
 public class NurseryController {
 
     private final NurseryService nurseryService;
@@ -23,7 +23,7 @@ public class NurseryController {
         return nurseryService.getAllNurseries();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/api/nursery/{id}")
     public NurseryDTO getNurseryById(@PathVariable Long id) {
         return nurseryService.getNurseryById(id);
     }
