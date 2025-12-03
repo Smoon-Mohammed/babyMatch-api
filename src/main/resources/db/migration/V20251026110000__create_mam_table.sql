@@ -7,5 +7,4 @@ CREATE TABLE IF NOT EXISTS mam(
     nb_children INTEGER,
     hourly CHAR(15),
     user_id INTEGER
-
 )
